@@ -1,0 +1,1004 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full_width {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(6, 65, 65);
+}
+
+.fix_width {
+    width: 100%;
+    height: auto;
+    background-color: blue;
+}
+
+.headercontent1 {
+    background-color: #81D8D0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerboxa {
+    height: 60px;
+    width: 50%;
+    padding: 20px;
+    justify-content: center;
+}
+
+.headerboxb {
+    height: 60px;
+    width: 50%;
+    justify-items: right;
+    padding: 20px;
+}
+
+.unorderlist {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-left: 15px;
+}
+
+.listitems {
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.unorderlistside {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-left: 15px;
+}
+
+.listitemsside {
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.fa-brands {
+    font-size: 25px;
+}
+
+.headercontent2 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px 20px 15px;
+}
+
+.headerboxc {
+    width: 37.5%;
+    align-content: center;
+}
+
+.headerboxd {
+    width: 25%;
+}
+
+.logoimage {
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+}
+
+.headerboxe {
+    width: 37.5%;
+    align-content: center;
+    justify-items: end;
+}
+
+.fa-magnifying-glass {
+    font-size: 28px;
+}
+
+.fa-user {
+    font-size: 28px;
+}
+
+.fa-heart {
+    font-size: 28px;
+}
+
+.fa-cart-shopping {
+    font-size: 28px;
+}
+
+.headercontent3 {
+    width: 100%;
+    background-color: #ECECEC;
+    padding: 10px;
+}
+
+.linkmenu {
+    text-decoration: none;
+    color: black;
+}
+
+.linkmenu:hover {
+    background-color: #81D8D0;
+    border-radius: 6px;
+}
+
+.linkmenu:active {
+    background-color: #61a7a0;
+    color: white;
+    border-radius: 6px;
+}
+
+.unorderlistmenu {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.listitemsmenu {
+    font-family: poppins;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 400
+}
+
+#checkbtn {
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    font-size: 30px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/*-----------Maindiv-------------------------*/
+.maincontent1 {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 40px;
+}
+
+.logobannera {
+    width: 50%;
+    align-content: center;
+    text-align: center;
+}
+
+.logobannerb {
+    width: 50%;
+}
+
+.logobannerimg {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.paragraph1 {
+    font-size: 28px;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    letter-spacing: 5px;
+}
+
+.button {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    background-color: #81D8D0;
+    color: black;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 55px;
+    padding-left: 55px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #81D8D0;
+    color: #ECECEC;
+}
+
+.fa-arrow-right {
+    font-size: 20px;
+}
+
+/*---------------------------maincontent2--------------------*/
+.maincontent2 {
+    width: 100%;
+    height: 600px;
+    background-color: #ECECEC;
+    display: flex;
+}
+
+.welcomeboxa {
+    width: 40%;
+    height: auto;
+    padding-left: 30px;
+}
+
+.welcomeboxb {
+    width: 60%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+.welcomeboxinner {
+    display: flex;
+    width: 110%;
+    height: 60%;
+    margin-left: -170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.welcomebannerimg {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.paragraph2 {
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+}
+
+.boxi {
+    width: 50%;
+    padding: 10px;
+}
+
+.boxii {
+    width: 50%;
+}
+
+.smallimg {
+    width: 80%;
+    height: 100%;
+}
+
+/*------------------shop by category-------------*/
+.shopheading {
+    width: 100%;
+    background-color: white;
+    justify-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.paragraphheading3 {
+    font-size: 85px;
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+}
+
+/*-----------------------shop items----------------------------*/
+.shopitems {
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+}
+
+.productitemsa {
+    display: flex;
+    height: 400px;
+    gap: 25px;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+.productboxa {
+    width: 30%;
+}
+
+.productimg {
+    width: 100%;
+    height: 40%;
+}
+
+.linkproduct {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-family: "Playfair Display", serif;
+    margin-top: -170px;
+
+}
+
+.linkproduct:hover {
+    background-color: #81D8D0;
+    color: black;
+}
+
+.innerproductbox {
+    padding: 25px;
+}
+
+.inneranchorbutton {
+    margin-top: -50px;
+    text-align: center;
+}
+
+/*----------------videos---------------------*/
+.videoscontent {
+    width: 100%;
+    background-color: white;
+    justify-items: center;
+    padding: 20px;
+}
+
+.videoscontentparagraph {
+    width: 100%;
+    background-color: white;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.paragraphvideo {
+    font-size: 45px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    line-height: 1.4em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+/*---------------------------------iframe----------------*/
+.iframevideos {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    gap: 40px;
+}
+
+.container1 {
+    width: 40%;
+}
+
+/*--------------------------------loveandengament----------------------*/
+.loveandengagementcontainer {
+    display: flex;
+    background-color: #ECECEC;
+    padding: 20px;
+}
+
+.containerbox1 {
+    width: 40%;
+    padding: 20px;
+}
+
+.containerbox2 {
+    width: 60%;
+}
+
+.lastlargeimg {
+    width: 100%;
+    height: auto;
+}
+
+.paragraph3 {
+    font-size: 25px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-top: 35px;
+
+}
+
+h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 90px;
+    font-weight: 400;
+}
+
+/*--------------------------------experience---------------*/
+.paragraph4 {
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-top: 35px;
+    text-align: center;
+}
+
+/*----------------------------------Experiencebox-----------------------*/
+.experiencebox {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.logobox1 {
+    width: 25%;
+    justify-items: center;
+}
+
+.paragraph5 {
+    font-size: 28px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.paragraph6 {
+    font-size: 28px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*---------------------footer---------------------*/
+.footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.footerbox1 {
+    width: 35%;
+    padding: 20px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 25px;
+    font-family: "Poppins", serif;
+}
+
+.footerunorderlist {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.footerlist {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+}
+
+/*----------------------------------footercopyright-------------------*/
+.footercopyright {
+    background-color: #81D8D0;
+    justify-items: center;
+}
+
+.paragraphfooter {
+    font-size: 28px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding: 10px;
+}
+
+@media only screen and (max-width:1024px) {
+    .headerboxa {
+        width: 70%;
+        padding: 20px;
+    }
+
+    .headerboxb {
+        width: 30%;
+        padding: 20px;
+    }
+
+    .headerboxc {
+        width: 32.5%;
+    }
+
+    .headerboxd {
+        width: 35%;
+    }
+
+    .headerboxe {
+        width: 32.5%;
+    }
+
+    .unorderlist {
+        gap: 25px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 65px;
+    }
+
+    .h3 {
+        font-size: 65px;
+    }
+
+    .paragraph2 {
+        font-size: 18px;
+    }
+
+    .shopheading {
+        padding-left: 1px;
+    }
+
+    .loveandengagementcontainer {
+        padding: 10px;
+    }
+
+    .welcomeboxinner {
+        width: 120%;
+    }
+
+    .welcomeboxb {
+        padding-bottom: 5px;
+    }
+
+    .welcomebannerimg {
+        height: 90%;
+    }
+
+    .paragraphheading3 {
+        font-size: 70px;
+    }
+
+    .linkproduct {
+        font-size: 20px;
+        padding: 12px
+    }
+
+    .productitemsa {
+        height: 250px;
+    }
+
+    .paragraphvideo {
+        font-size: 35px;
+    }
+
+    .paragraph3 {
+        font-size: 16px;
+    }
+
+    .paragraph4 {
+        font-size: 55px;
+    }
+
+    iframe {
+        width: 450px;
+        height: 390px;
+    }
+
+    .container1 {
+        width: 50%
+    }
+
+    .paragraph5 {
+        font-size: 20px;
+    }
+
+    .paragraph6 {
+        font-size: 20px;
+    }
+
+    .footerbox1 {
+        width: 35%;
+    }
+
+    .footerlist {
+        font-size: 18px;
+    }
+
+    .paragraphfooter {
+        font-size: 25px;
+    }
+
+    .listitemsmenu {
+        font-size: 16px;
+        padding: 5px
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #checkbtn {
+        display: block;
+    }
+
+    .headercontent3 .unorderlistmenu {
+        width: 100%;
+    }
+
+    .headercontent3 .unorderlistmenu .listitemsmenu {
+        display: block;
+        text-align: center;
+    }
+
+    .headerboxa {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .headerboxb {
+        width: 20%;
+        padding: 15px;
+    }
+
+    .unorderlistmenu {
+        gap: 5px
+    }
+
+    .unorderlist {
+        gap: 15px;
+    }
+
+    .fa-brands {
+        font-size: 22px;
+    }
+
+    .headerboxc {
+        width: 32.5%;
+    }
+
+    .headerboxd {
+        width: 35%;
+    }
+
+    .headerboxe {
+        width: 32.5%;
+    }
+
+    .fa-cart-shopping {
+        font-size: 20px;
+    }
+
+    .fa-heart {
+        font-size: 20px;
+    }
+
+    .fa-user {
+        font-size: 20px;
+    }
+
+    .listitemsmenu {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+    .paragraph1 {
+        font-size: 18px;
+    }
+
+    .button {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .welcomeboxa {
+        width: 50%;
+    }
+
+    .welcomeboxinner {
+        width: 135%;
+    }
+
+    .smallimg {
+        width: 100%;
+    }
+
+    .paragraph2 {
+        font-size: 17px;
+    }
+
+    .paragraphheading3 {
+        font-size: 60px;
+    }
+
+    .shopitems {
+        padding: 2px;
+    }
+
+    .productitemsa {
+        margin: 10px;
+    }
+
+    .linkproduct {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .inneranchorbutton {
+        margin-top: -40px;
+    }
+
+    .paragraphvideo {
+        font-size: 28px;
+    }
+
+    iframe {
+        width: 350px;
+        height: 200px;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    .paragraph3 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .paragraph4 {
+        margin-top: 1px;
+    }
+
+    .paragraph5 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .footerlist {
+        font-size: 16px;
+    }
+
+    .paragraphfooter {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .unorderlistmenu {
+        display: block;
+        text-align: center;
+    }
+
+    .iframevideos {
+        display: block;
+    }
+
+    .listitemsmenu {
+        font-size: 20px;
+    }
+
+    .unorderlist {
+        padding-left: 1px;
+        justify-content: center;
+        display: block;
+    }
+
+    .headercontent1 {
+        display: block;
+    }
+
+    .headerboxa {
+        width: 100%;
+        text-align: center;
+    }
+
+    .headerboxb {
+        width: 100%;
+        justify-items: center;
+    }
+
+    .listitems {
+        font-size: 17px;
+    }
+
+    .headercontent2 {
+        display: block;
+    }
+
+    .headerboxc {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .headerboxd {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .headerboxe {
+        width: 100%;
+        justify-items: center;
+        margin-top: 20px;
+    }
+
+
+
+    .maincontent1 {
+        display: block;
+        padding: 10px;
+    }
+
+    .logobannera {
+        width: 100%;
+    }
+
+    .logobannerb {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .maincontent2 {
+        display: block;
+        height: 1300px;
+    }
+
+    .welcomeboxa {
+        width: 100%;
+        padding: 20px
+    }
+
+    .welcomeboxb {
+        width: 100%;
+    }
+
+    .welcomeboxinner {
+        display: block;
+        width: 100%;
+        margin-left: 2px;
+    }
+
+    .boxi {
+        width: 100%;
+    }
+
+    .boxii {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .shopheading {
+        padding: 10px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .productitemsa {
+        display: block;
+        height: 1200px;
+    }
+
+    .linkproduct {
+        font-size: 20px;
+    }
+
+    .productboxa {
+        width: 100%;
+    }
+
+    .paragraphheading3 {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .paragraphvideo {
+        font-size: 23px;
+    }
+
+    .iframevideos {
+        padding: 10px;
+    }
+
+    .container1 {
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    iframe {
+        width: 300px;
+    }
+
+    .loveandengagementcontainer {
+        display: block;
+    }
+
+    .containerbox1 {
+        width: 100%;
+    }
+
+    .containerbox2 {
+        width: 100%;
+    }
+
+    .paragraph3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .paragraph4 {
+        font-size: 45px;
+    }
+
+    .experiencebox {
+        display: block
+    }
+
+    .logobox1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .paragraphfooter {
+        font-size: 17px;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .footerbox1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footercopyright {
+        text-align: center;
+    }
+
+    .unorderlistside {
+        justify-content: center;
+    }
+
+}
